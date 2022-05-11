@@ -8,7 +8,9 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
 
         Log.d("!", json);
         Gson gson = new Gson();
-
+        Type type = new TypeToken<ArrayList<Svamp>>() {}.getType();
+        listofSvampar = gson.fromJson(json, type);
+        //adapter.setSvamp(listofSvampar);
     }
 }
