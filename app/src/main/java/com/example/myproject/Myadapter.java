@@ -21,12 +21,21 @@ public class Myadapter extends RecyclerView.Adapter<MyViewholder> {
 
     @Override
     public void onBindViewHolder(@NonNull MyViewholder holder, int position) {
+        Svamp svamp = svamps.get(position);
 
+        holder.name.setText(svamp.getName());
+        holder.location.setText(svamp.getLocation());
+        holder.category.setText(svamp.getCategory());
+        holder.auxdata.setText(svamp.getAuxdata());
     }
 
 
     @Override
     public int getItemCount() {
-        return 0;
+        return svamps.size();
+    }
+
+    public void setSvamps(List<Svamp> svamps) {
+        this.svamps = svamps;
     }
 }
