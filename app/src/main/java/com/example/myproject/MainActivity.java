@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         Gson gson = new Gson();
         Type type = new TypeToken<ArrayList<Svamp>>() {}.getType();
         listofSvampar = gson.fromJson(json, type);
-        //adapter.setSvamp(listofSvampar);
+        adapter.setSvamps(listofSvampar);
+        adapter.notifyDataSetChanged();
     }
 }
