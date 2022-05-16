@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">myProject</string>
+    <string name="app_name">Varning för svamp!</string>
     <string name="about_heading">Om oss</string>
     <string name="about_text">myProject</string>
 </resources>
