@@ -40,12 +40,22 @@
                 app:layout_constraintTop_toBottomOf="@+id/heading"
                 app:layout_constraintStart_toStartOf="parent"
                 android:text="@string/about_text" />
+            <TextView
+                android:id="@+id/img_source"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@color/card_foot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/info"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="URLEN" />
             <Button
                 android:id="@+id/back_button"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:text="Tillbaka"
-                app:layout_constraintTop_toBottomOf="@+id/info"
+                app:layout_constraintTop_toBottomOf="@+id/img_source"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
