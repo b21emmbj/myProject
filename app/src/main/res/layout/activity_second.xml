@@ -22,7 +22,7 @@
                 android:id="@+id/heading"
                 android:background="@color/card_Head"
                 android:textAlignment="center"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textColor="@color/black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -33,6 +33,7 @@
             <TextView
                 android:id="@+id/info"
                 android:textAlignment="center"
+                android:textColor="@color/black"
                 android:background="@color/card_body"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
