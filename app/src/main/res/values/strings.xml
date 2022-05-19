@@ -8,4 +8,5 @@
         En bra tumregel är: \n Är du osäker på vilken sorts svamp du har plockat - så ska du inte äta den! </string>
     <string name="hyperLink">Bakgrundsbild på startsidan: <a href="https://unsplash.com/photos/4eeG4Mn0HVY">källa</a></string>
     <string name="button_back">Tillbaka</string>
+    <string name="content_info">Bild på en varningsskylt</string>
 </resources>

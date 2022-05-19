@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/warning"
         android:scaleType="fitXY"
+        android:contentDescription="@string/content_info"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
@@ -20,7 +21,7 @@
         android:id="@+id/about_button"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:text="Om oss"
+        android:text="@string/about_heading"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/myRecycler"
         app:layout_constraintStart_toStartOf="parent"
