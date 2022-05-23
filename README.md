@@ -46,15 +46,17 @@ Figur 3
 
 Figur 4
 ```
-...
+...// från res/values/string.xml
     <string name="hyperLink">Bakgrundsbild på startsidan: <a href="https://unsplash.com/photos/4eeG4Mn0HVY">källa</a></string>
 ...
+   // från SecondActivity.java
     private void setupHyperLink() {
         TextView linkTextView = findViewById(R.id.img_source);
         linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
         linkTextView.setLinkTextColor(Color.BLUE);
     }
 ```
+Vad var jobbigt? Vad var roligt?
 
 ## Skärmbild från första aktiviteten
 ![](first.png)
