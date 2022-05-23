@@ -18,8 +18,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
         back = findViewById(R.id.back_button);
         back.setOnClickListener(view -> {
-            Intent intent = new Intent(SecondActivity.this, MainActivity.class);
-            startActivity(intent);
+            finish();
         });
         setupHyperLink();
     }
