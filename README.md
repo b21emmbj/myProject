@@ -12,7 +12,7 @@ Jag ville ha med information om svamparnas giftighet/dödligthet plus hur kroppe
 Jag analyserade namnen på attributen vi kunde använda och räknade då bort attributen "size" och "cost"
 då jag misstänker att de är av datatypen int. 
 
-##Figur 1
+## Figur 1
 ```
 {"ID":"svamp_lomFlug", 
 "name":"Lömsk flugsvamp",
@@ -28,7 +28,7 @@ då jag misstänker att de är av datatypen int.
 I förra uppgiften (Assignment 5: Networking) så använde jag mig av en constructor för att "uppdatera" datan i adaptern
 men i detta projekt lärde jag mig att använda en "setter" istället. Denna metod visas i figur 2 och koden är skriven i filen Myadapter.java. 
 
-##Figur 2
+## Figur 2
 ```
    public void setSvamps(List<Svamp> svamps) {
         this.svamps = svamps;
@@ -41,7 +41,7 @@ I figur 3 finns även hur jag gör kopplingen mellan RecyclerView, adapter och d
 Denna del i uppgiften upplevde jag som svårast då jag inte finner Java lika "förklarande eller självklart" som C++ och 
 jag behövde läsa på flera gånger för att komma ihåg vilka delar som krävs för att det ska fungera.
 
-##Figur 3
+## Figur 3
 ```
     private final String JSON_URL = "https://mobprog.webug.se/json-api/getdataasjson.php?type=b21emmbj";
     private List<Svamp> listofSvampar;
@@ -71,7 +71,7 @@ Jag tror det beror på att jag var färdig till den nivån jag var nöjd med av 
 Så i figur 4 visar jag upp hur jag löste det genom att ange URL;en med en "a-tagg" (HTML / anchor tag) i en sträng och sen 
 i aktiviteten (SecondActivity) möjliggöra länken klickbar genom att använda setMovementMethod() på den TextView(n) som strängen finns i. 
 
-##Figur 4
+## Figur 4
 ```
 ...// från res/values/string.xml
     <string name="hyperLink">Bakgrundsbild på startsidan: <a href="https://unsplash.com/photos/4eeG4Mn0HVY">källa</a></string>
@@ -84,7 +84,7 @@ i aktiviteten (SecondActivity) möjliggöra länken klickbar genom att använda 
     }
 ```
 
-#Skärmbilder av min app:
+# Skärmbilder av min app:
 
 ## Huvudskärmen
 ![](first.png)
